@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="pc_set_price_view_form" model="ir.ui.view">
+        <field name="name">pc.set.price.view.form</field>
+        <field name="model">pc.set.price.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Set Layer">
+                <sheet>
+                    <group>
+                        <field name="quantity" />
+                        <field name="uom_id" />
+                        <field name="unit_cost" />
+                        <field name="value" />
+                        <field name="remaining_qty" />
+                    </group>
+                    <footer>
+                        <button
+              name="action_set_layer"
+              string="Set Layer"
+              type="object"
+              class="btn-primary"
+            />
+                        <button
+              string="Cancel"
+              class="btn btn-secondary"
+              special="cancel"
+            />
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>

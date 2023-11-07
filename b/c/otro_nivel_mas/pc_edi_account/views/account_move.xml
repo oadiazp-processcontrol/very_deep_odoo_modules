@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pc_edi_account_move_form" model="ir.ui.view">
+        <field name="name">pc_edi_account_move_form</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='preview_invoice']" position="after">
+                <button name="send_edi_invoice_by_ftp" type="object" string="Send this EDI invoice by FTP"
+                        title="Send this EDI invoice by FTP" attrs="{'invisible': [('state', 'not in', ('posted',))]}"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="action_receive_edi_invoices" model="ir.actions.server">
+        <field name="name">Receive EDI documents by FTP</field>
+        <field name="model_id" ref="account.model_account_move"/>
+        <field name="binding_model_id" ref="account.model_account_move"/>
+        <field name="binding_view_types">list</field>
+        <field name="state">code</field>
+        <field name="code">
+            records.receive_edi_invoices_by_ftp()
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,116 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pc_fix_stock_valuation_layer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-02 03:43+0000\n"
+"PO-Revision-Date: 2023-11-01 23:56-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#. module: pc_fix_stock_valuation_layer
+#: model_terms:ir.ui.view,arch_db:pc_fix_stock_valuation_layer.pc_set_price_view_form
+msgid "Cancel"
+msgstr ""
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__company_id
+msgid "Company"
+msgstr ""
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__quantity
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__remaining_qty
+msgid "Remaining Qty"
+msgstr "Cantidad restante"
+
+#. module: pc_fix_stock_valuation_layer
+#: model_terms:ir.ui.view,arch_db:pc_fix_stock_valuation_layer.pc_set_price_view_form
+#: model_terms:ir.ui.view,arch_db:pc_fix_stock_valuation_layer.pc_stock_valuation_layer_form_inherit
+msgid "Set Layer"
+msgstr "Revalorizar"
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model,name:pc_fix_stock_valuation_layer.model_pc_set_price_wizard
+msgid "Set Layer Wizard"
+msgstr ""
+
+#. module: pc_fix_stock_valuation_layer
+#. odoo-python
+#: code:addons/pc_fix_stock_valuation_layer/models/stock_valuation_layer.py:0
+#, python-format
+msgid "Set Price"
+msgstr "Revalorizar"
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model,name:pc_fix_stock_valuation_layer.model_stock_valuation_layer
+msgid "Stock Valuation Layer"
+msgstr "Capa de valoración de stock"
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__value
+msgid "Total Value"
+msgstr "Valor Total"
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__unit_cost
+msgid "Unit Value"
+msgstr "Valor unitario"
+
+#. module: pc_fix_stock_valuation_layer
+#: model:ir.model.fields,field_description:pc_fix_stock_valuation_layer.field_pc_set_price_wizard__uom_id
+msgid "Uom"
+msgstr ""
